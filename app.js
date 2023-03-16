@@ -32,3 +32,15 @@ function setWeather(type) {
         weatherDescription.textContent = "No weather type selected.";
     }
 }
+
+function tempSelected() {
+    const type = this.value;
+    console.log(type);
+    setWeather(type);
+}
+
+function setTemp(type) {
+    const tempNumber = document.querySelector("#temperature-description");
+
+    if (type === )
+}

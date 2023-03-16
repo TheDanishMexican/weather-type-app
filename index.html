@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="app.css" />
     <title>Project Template</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Weather type</h1>
-    <label for="select-weather-type">Select the weather type today:
-        <select id="select-weather-type">
-            <option>--Make a choice--</option>
-            <option value="sunny">Sunny</option>
-            <option value="rainy">Rainy</option>
-            <option value="snowing">Snowing</option>
-            <option value="overcast">Overcast</option>
-        </select>
+    <label for="select-weather-type"
+      >Select the weather type today:
+      <select id="select-weather-type">
+        <option>--Make a choice--</option>
+        <option value="sunny">Sunny</option>
+        <option value="rainy">Rainy</option>
+        <option value="snowing">Snowing</option>
+        <option value="overcast">Overcast</option>
+      </select>
+      <p id="weather-description"></p>
     </label>
-    <p id="weather-description"></p>
+    <h1>Temperature</h1>
+    <label for="select-temperature"
+      >Select the temperature today:
+      <select id="select-temperature">
+        <option>--Chose temperature--</option>
+        <option value="10 degrees">10 degrees</option>
+        <option value="20 degrees">20 degrees</option>
+        <option value="30 degrees">30 degrees</option>
+        <option value="35 degrees">35 degrees</option>
+      </select>
+    </label>
+    <p id="temperature-description"></p>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
